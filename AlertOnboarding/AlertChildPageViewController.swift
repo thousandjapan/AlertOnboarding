@@ -17,9 +17,7 @@ class AlertChildPageViewController: UIViewController {
     @IBOutlet weak var labelDescription: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        self.image.contentMode = .scaleAspectFit
+        super.viewDidLoad()        
     }
     
     override func didReceiveMemoryWarning() {
