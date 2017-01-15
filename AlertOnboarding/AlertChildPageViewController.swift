@@ -18,6 +18,8 @@ class AlertChildPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.image.contentMode = .scaleAspectFit
     }
     
     override func didReceiveMemoryWarning() {
